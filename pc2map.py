@@ -13,7 +13,7 @@ def pc2map(pc, map_out=None, res=5, height=1.8):
     #find floor
     n,bins = np.histogram(z,50)
     floor = bins[np.argmax(n)+1]
-    index = (z>floor) & (z<height)
+    index = (z>floor) & (z<floor+height)
 
     # remove Rotation
     ## TODO: use histogram of normals (if existing) 
