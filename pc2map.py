@@ -32,7 +32,7 @@ def pc2map(pc, map_out=None, res=5, height=1.8):
     temp = xy[~index]
     mapp[temp[:,0],temp[:,1]] = [255,255,255,255]
     temp = xy[index]
-    mapp[temp[:,0],temp[:,1]] = [0,0,0,1]
+    mapp[temp[:,0],temp[:,1]] = [0,0,0,255]
 
     # write map
     if map_out:
