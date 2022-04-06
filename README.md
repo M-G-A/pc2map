@@ -14,3 +14,5 @@ if your pointcloud doesn't have normals and you want to align the data anyways, 
 
 `pip install scikit-learn`
 
+# Acknowledgement
+This work is funded by Germany’s Federal Ministry of Education and Research within the project KIMaps (grant ID #01IS20031C).
